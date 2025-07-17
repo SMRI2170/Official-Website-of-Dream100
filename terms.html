@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Dream100</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F5F3FF;
+            color: #1d1d1f;
+        }
+        .bg-primary { background-color: #8B5CF6; }
+        .text-primary { color: #8B5CF6; }
+        .prose h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 2em;
+            margin-bottom: 1em;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 0.5em;
+        }
+        .prose h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 1.5em;
+            margin-bottom: 1em;
+        }
+        .prose p, .prose ul {
+            margin-bottom: 1em;
+            line-height: 1.7;
+        }
+        .prose ul {
+            list-style-position: inside;
+            list-style-type: disc;
+        }
+        .prose a {
+            color: #8B5CF6;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+                <h1 class="text-2xl font-bold text-primary">Dream100</h1>
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="py-16 md:py-24">
+        <div class="container mx-auto px-6">
+            <article class="prose lg:prose-xl max-w-4xl mx-auto bg-white p-8 md:p-12 rounded-2xl shadow-md">
+                <h1 class="text-4xl font-extrabold tracking-tight">Terms of Service</h1>
+                <p class="text-gray-500">Last updated: July 17, 2025</p>
+
+                <p>Please read these Terms of Service ("Terms", "Terms of Service") carefully before using the Dream100 mobile application (the "Service") operated by us.</p>
+                <p>Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users, and others who access or use the Service.</p>
+
+                <h2>Accounts</h2>
+                <p>When you create an account with us, you must provide us information that is accurate, complete, and current at all times. Failure to do so constitutes a breach of the Terms, which may result in immediate termination of your account on our Service.</p>
+                
+                <h2>Intellectual Property</h2>
+                <p>The Service and its original content, features, and functionality are and will remain the exclusive property of Dream100 and its licensors. The Service is protected by copyright, trademark, and other laws of both the Japan and foreign countries.</p>
+
+                <h2>Links To Other Web Sites</h2>
+                <p>Our Service may contain links to third-party web sites or services that are not owned or controlled by us. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third party web sites or services.</p>
+                
+                <h2>Termination</h2>
+                <p>We may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.</p>
+
+                <h2>Governing Law</h2>
+                <p>These Terms shall be governed and construed in accordance with the laws of Japan, without regard to its conflict of law provisions.</p>
+
+                <h2>Changes</h2>
+                <p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days' notice prior to any new terms taking effect.</p>
+
+                <h2>Contact Us</h2>
+                <p>If you have any questions about these Terms, please contact us: [Your Contact Email]</p>
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 mt-16">
+        <div class="container mx-auto px-6 py-10 text-center text-sm text-gray-500">
+            <p>&copy; <span id="year"></span> Dream100. All Rights Reserved.</p>
+            <p class="mt-2">
+                <a href="index.html" class="text-gray-400 hover:text-white">Home</a> | 
+                <a href="privacy.html" class="text-gray-400 hover:text-white">Privacy Policy</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
